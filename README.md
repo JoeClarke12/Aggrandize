@@ -1,6 +1,6 @@
 # Aggrandize
 
-----
+--
 
 ## Contents
 [What is Aggrandize?]
