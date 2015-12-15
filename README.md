@@ -1,8 +1,8 @@
 # Aggrandize
 
----
+----
 
-## Content
+## Contents
 [What is Aggrandize?]
 (https://github.com/JoeClarke12/Aggrandize/blob/master/README.md/##whatisaggrandize??)
 
