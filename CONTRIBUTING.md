@@ -10,7 +10,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## **Using the issue tracker**
 
----
+--
 
 The issue tracker is the prefered way to report all kinds of issues including but not limited to:
 
@@ -25,7 +25,7 @@ Please respect the following rules:
 
 ## **Bug reports**
 
----
+--
 
 A bug is a demonstrable problem that is caused by the code in the repository. Good bug reports are extremely helpful, so thanks!
 
