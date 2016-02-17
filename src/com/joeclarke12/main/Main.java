@@ -11,10 +11,11 @@ public class Main implements Runnable{
 	int s = MainGraphics.scale;
 
 	
-	public static void start() {
+	public void start() {
 		running = true;
 		
 		run();
+		return;
 		
 	}
 	
@@ -23,7 +24,10 @@ public class Main implements Runnable{
 	public void stop() {
 		System.exit(1);
 	}
-	public static void run() {
+	
+	
+	@Override
+	public void run() {
 		Main.Main();
 		
 	}
@@ -32,5 +36,7 @@ public class Main implements Runnable{
 		// TODO Auto-generated method stub
 		
 	}
+
+
 
 }

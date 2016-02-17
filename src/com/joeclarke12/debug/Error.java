@@ -1,8 +1,10 @@
 package com.joeclarke12.debug;
 
+import com.joeclarke12.main.Main;
+
 public class Error {
 
-	public void error(int x, String y) {
+	public static void error(int x, String y) {
 		/* 1 Major system error */
 		if(x == 1) {
 			System.err.print(y);
@@ -13,5 +15,14 @@ public class Error {
 			System.err.print(y);
 			
 		}
+	}
+
+	public void RunCheck() {
+		if(Main.running = false) {
+			Error.error(1, "Run Check error");
+			System.exit(1);
+		}
+		
+		
 	}
 }
